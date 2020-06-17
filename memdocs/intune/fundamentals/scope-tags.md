@@ -8,7 +8,7 @@ author: ErikjeMS
 ms.author: erikje
 manager: dougeby
 ms.date: 08/06/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: microsoft-intune
 ms.subservice: fundamentals
 ms.technology:
@@ -86,7 +86,6 @@ When working with scope tags, remember these details:
 - You can assign scope tags to an Intune object type if the tenant can have multiple versions of that object (such as role assignments or apps).
   The following Intune objects are exceptions to this rule and don't currently support scope tags:
     - Windows ESP profiles
-    - Device Categories
     - Enrollment Restrictions
     - Corp Device Identifiers
     - Autopilot Devices

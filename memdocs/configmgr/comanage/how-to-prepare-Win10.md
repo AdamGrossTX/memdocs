@@ -5,8 +5,8 @@ description: Learn how to prepare your Windows 10 internet-based devices for co-
 author: mestew
 ms.author: mstewart
 manager: dougeby
-ms.date: 04/24/2020
-ms.topic: conceptual
+ms.date: 05/14/2020
+ms.topic: how-to
 ms.prod: configuration-manager
 ms.technology: configmgr-comanage
 ms.assetid: 101de2ba-9b4d-4890-b087-5d518a4aa624
@@ -74,7 +74,7 @@ Decide which command-line properties you require for your environment:
   - AADCLIENTAPPID  
   - AADRESOURCEURI  
 
-- If the client roams back to the intranet, the following property is required:  
+- If the client roams back to the intranet, use the following property:
   - SMSMP  
 
 - If using your own PKI certificate, and your CRL isn't published to the internet, the following parameter is required:  
@@ -100,9 +100,9 @@ For more information, see [Client installation properties](../core/clients/deplo
 
 ### Create the app in Intune
 
-1. Go to the [Azure portal](https://portal.azure.com), and then open the Intune page.  
+1. Go to the [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com), and then expand the left navigation pane.  
 
-2. Select **Client Apps** > **Apps** > **Add**.  
+2. Select **Apps** > **All Apps** > **Add**.  
 
 3. Under **Other**, select **Line-of-business app**.  
 

@@ -42,7 +42,6 @@ Here's what you need to set it up:
         - For federated domains
 - Client agent setting for hybrid Azure AD-join
 - Configure auto-enrollment of devices to Intune
-- Assign Intune user licenses
 - Enable co-management in Configuration Manager
 
 For a tutorial on this path, see [Tutorial: Enable co-management for existing Configuration Manager clients](tutorial-co-manage-clients.md).
@@ -58,6 +57,5 @@ Here's what you need to set it up:
 3. [Configure the management point and clients to use the cloud management gateway](../core/clients/manage/cmg/setup-cloud-management-gateway.md)  
 4. [Use Intune to deploy the Configuration Manager client](how-to-prepare-Win10.md)  
 
-> [!Note]  
-> A tutorial for this path is coming soon.
+For a tutorial on this path, see [Tutorial: Enable co-management for new internet-based devices](tutorial-co-manage-new-devices.md).
 
