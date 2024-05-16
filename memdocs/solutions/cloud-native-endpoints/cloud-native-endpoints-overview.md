@@ -49,9 +49,9 @@ In this set of articles, you will:
 
   - [Tutorial: Get started with cloud-native Windows endpoints with Microsoft Intune](cloud-native-windows-endpoints.md)
 
-- ✅ **Learn more about the Azure AD concepts** that are part of cloud-native endpoints, including accessing on-premises resources:
+- ✅ **Learn more about the Entra ID concepts** that are part of cloud-native endpoints, including accessing on-premises resources:
 
-  - [Azure AD joined vs. Hybrid Azure AD joined](azure-ad-joined-hybrid-azure-ad-joined.md)
+  - [Entra ID joined vs. Hybrid Entra ID joined](azure-ad-joined-hybrid-azure-ad-joined.md)
   - [Cloud-native endpoints and on-premises resources](cloud-native-endpoints-on-premises.md)
 
 - ✅ **Get guidance and advice** on moving your workloads and your organization to become cloud-native:
@@ -70,13 +70,13 @@ A cloud-native endpoint doesn't necessarily live exclusively in the cloud. Inste
 
 These endpoints can be located anywhere that has internet access. They can also be physical devices or virtual machines.
 
-From a technical perspective, cloud-native endpoints are Windows devices that are deployed using [Windows Autopilot](/autopilot/windows-autopilot), joined to Azure Active Directory ([Azure AD joined](/azure/active-directory/devices/concept-azure-ad-join)), and are automatically enrolled in a Mobile Device Management (MDM) solution, like [Microsoft Intune](../../intune/fundamentals/what-is-intune.md).
+From a technical perspective, cloud-native endpoints are Windows devices that are deployed using [Windows Autopilot](/autopilot/windows-autopilot), joined to Azure Active Directory ([Entra ID joined](/azure/active-directory/devices/concept-azure-ad-join)), and are automatically enrolled in a Mobile Device Management (MDM) solution, like [Microsoft Intune](../../intune/fundamentals/what-is-intune.md).
 
 A cloud-native endpoint has the following characteristics:
 
 - Provisioned and managed from cloud-based services
 - Can use and access other cloud-based endpoints from anywhere
-- Azure AD joined
+- Entra ID joined
 - Includes configuration, data, and applications that are portable and roam with the user
 - Doesn't generally require a direct connection to any on-premises resources for usability or management
 
@@ -92,7 +92,7 @@ Cloud-native endpoints provide many benefits to end users and IT:
 
   End users don't worry about connecting to the VPN or other networks. They sign in to devices from anywhere, and run actions, like password reset, without connecting to on-premises AD.
 
-  Azure AD joined (also known as AADJ) endpoints do the initial sign-in using an internet connection. The Azure AD joined sign-in process doesn't use an on-premises domain controller for connectivity, and is faster than a traditional domain-based sign-in.
+  Entra ID joined endpoints do the initial sign-in using an internet connection. The Entra ID joined sign-in process doesn't use an on-premises domain controller for connectivity, and is faster than a traditional domain-based sign-in.
 
   Traditional domain joined PCs require connectivity to domain controllers for initial sign-in.
 
@@ -148,7 +148,7 @@ The [High level planning guide to move to cloud-native endpoints](cloud-native-e
 
 1. 🡺 **Overview: What are cloud-native endpoints?** (*You are here*)
 2. [Tutorial: Get started with cloud-native Windows endpoints](cloud-native-windows-endpoints.md)
-3. [Concept: Azure AD joined vs. Hybrid Azure AD joined](azure-ad-joined-hybrid-azure-ad-joined.md)
+3. [Concept: Entra ID joined vs. Hybrid Entra ID joined](azure-ad-joined-hybrid-azure-ad-joined.md)
 4. [Concept: Cloud-native endpoints and on-premises resources](cloud-native-endpoints-on-premises.md)
 5. [High level planning guide](cloud-native-endpoints-planning-guide.md)
 6. [Known issues and important information](cloud-native-endpoints-known-issues.md)
